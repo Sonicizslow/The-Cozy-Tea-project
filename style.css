@@ -1,1 +1,26 @@
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  padding-top: 69px;
+}
 
+nav {
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  top: 0;
+  height: 69px;
+}
+
+.background {
+  width: 1200px;
+  height: 700px;
+}
+
+.logo {
+  height: 50px;
+  margin-left: 10px;
+}
