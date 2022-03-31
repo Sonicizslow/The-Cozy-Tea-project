@@ -1,4 +1,4 @@
-body {
+html {
   font-family: Helvetica;
   font-size: 22px;
   color: seashell;
@@ -14,18 +14,13 @@ nav {
   background-color: black;
   width: 100%;
   border-bottom: 1px solid seashell;
-  margin: 1em
-}
-
-img {
-  width: 90%;
-  height: 700px;
 }
 
 .logo {
   float: left;
-  width: 120px;
   height: 50px;
+  width: auto;
+  margin-left: 10px;
 }
 
 .navagation {
@@ -33,17 +28,57 @@ img {
   display: flex;
   margin-right: 20px;
   flex-direction: row;
-  padding-left: 0;
+}
+
+.navagation li {
+  padding-right: 35px;
+  text-decoration: underline;
+  color: seashell;
 }
 
 .background {
   width: 1200px;
   height: 700px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 50px;
 }
 
 .logo {
   height: 50px;
   margin-left: 10px;
+}
+
+.product-grid{
+  display: flex;
+  justify-content: center;
+  padding: 300px 200px;
+  flex: auto;
+  flex-direction: row;
+}
+
+.product-grid img{
+    width: 300px;
+    height: 200px;
+  }
+
+  .product-grid p{
+    align-self: center;
+  }
+
+.locations-background {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 500px;
+}
+
+.copyright {
+  text-align: left;
+  margin-left: 20px;
+  font-size: small;
+  padding-bottom: 20px;
 }
 
 
