@@ -18,6 +18,7 @@ nav {
 
 .logo {
   float: left;
+  padding-top: 10px;
   height: 50px;
   width: auto;
   margin-left: 10px;
@@ -37,12 +38,18 @@ nav {
 }
 
 .background {
-  width: 1200px;
+  width: 100%;
   height: 700px;
   display: block;
   margin-left: auto;
   margin-right: auto;
   padding-top: 50px;
+}
+
+.top-text {
+  background-color: black;
+  position:absolute; top: 100; left: 100;
+  z-index: 1;
 }
 
 .logo {
@@ -72,6 +79,12 @@ nav {
   margin-left: auto;
   margin-right: auto;
   height: 500px;
+  width: 100%;
+}
+
+.downtown, .east-bayside, .oakdale {
+  width: 300px;
+  display: inline-block;
 }
 
 .copyright {
