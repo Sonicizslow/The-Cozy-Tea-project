@@ -43,24 +43,19 @@ img {
   text-decoration: none;
 }
 
-.background {
-  float: none;
+.welcome {
+  background: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg");
   width: 1200px;
   height: 700px;
-  padding-top: 65px;
-  display: block;
   margin-left: auto;
   margin-right: auto;
+  display: flex;
+  align-items: center;
 }
 
 .herotext {
-  background: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg");
   background-color: black;
   width: 1200px;
-  height: 700px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
   text-align: center;
 }
 
@@ -86,17 +81,28 @@ img {
 
 }
 
-.locations-background {
-  display: block;
+.grid {
+  background: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg");
+  height: 600px;
+  width: 1200px;
   margin-left: auto;
   margin-right: auto;
-  height: 500px;
-  width: 100%;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+  align-items: center;
 }
 
-.downtown, .east-bayside, .oakdale {
+.locations-title h2{
+  color: black;
+  text-align: center;
+}
+
+.location {
+  background-color: black;
   width: 300px;
-  display: inline-block;
+  height: 290px;
+  text-align: center;
 }
 
 .copyright {
